@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Contador from './Contador'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -27,6 +28,10 @@ function App() {
         >
           Count is {count}
         </button>
+      </section>
+
+      <section style={{ display: 'flex', justifyContent: 'center', padding: '2rem 0' }}>
+        <Contador />
       </section>
 
       <div className="ticks"></div>
