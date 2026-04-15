@@ -1,4 +1,4 @@
-import fotoMia from '../assets/fotoMia.jpeg';
+import fotoNoMia from '../assets/fotoNoMia.jpeg';
 
 function Acerca() {
     return (
@@ -24,7 +24,7 @@ function Acerca() {
             </ul>
 
             <div style={{ marginTop: '20px' }}>
-                <img src={fotoMia} alt="Mi foto" style={{ width: '250px', borderRadius: '15px', objectFit: 'cover' }} />
+                <img src={fotoNoMia} alt="Mi foto" style={{ width: '250px', borderRadius: '15px', objectFit: 'cover' }} />
             </div>
 
         </div>
