@@ -1,4 +1,4 @@
-import fotoNoMia from '../assets/fotoNoMia.jpeg';
+import fotoNoMia from '../assets/fotoNoMia.jpg';
 
 function Acerca() {
     return (
