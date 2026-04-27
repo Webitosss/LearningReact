@@ -3,6 +3,7 @@ import heroImg from '../assets/hero.png'
 import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '../assets/vite.svg'
+import PerfilResumen from '../components/PerfilResumen'
 
 
 
@@ -15,7 +16,8 @@ function Home() {
             <h1>Home</h1>
             <p>Bienvenido a la página principal.</p>
 
-
+            <br />
+            <PerfilResumen />
 
             <section id="center">
                 <div className="hero">

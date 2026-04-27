@@ -5,6 +5,7 @@ import Contacto from "./pages/Contacto";
 import Tablas from "./pages/Tablas";
 import Navbar from "./components/Navbar";
 import Usuarios from "./pages/Usuarios";
+import "./App.css";
 
 function App() {
   return (

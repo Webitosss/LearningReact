@@ -1,0 +1,32 @@
+.navbar {
+    padding: 1rem;
+    background-color: var(--code-bg);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2rem;
+    width: 97%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--text-h);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: var(--accent);
+}

@@ -1,12 +1,18 @@
 import fotoNoMia from '../assets/fotoNoMia.jpg';
+import { useAlumnoContext } from "../context/AlumnoContext";
 
 function Acerca() {
+
+    const { alumno } = useAlumnoContext();
+
     return (
         <div>
             <h1>Acerca</h1>
 
-            <p><strong>Nombre:</strong>Bryan Orlando Gallardo Valadez</p>
-            <p><strong>Carrera:</strong>Licenciatura en Informatica</p>
+            <p><strong>Nombre: </strong> {alumno.nombre} </p>
+            <p><strong>Carrera: </strong> {alumno.carrea} </p>
+            <p><strong>Grupo: </strong> {alumno.grupo} </p>
+            <p><strong>Semestre: </strong> {alumno.semestre} </p>
 
             <p>
                 Soy un estudiante de la UAS interesado en desarrollo web enfocado mas al backend.
