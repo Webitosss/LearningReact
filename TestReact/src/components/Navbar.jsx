@@ -20,6 +20,9 @@ function Navbar() {
                 <li>
                     <Link to="/usuarios">Usuarios</Link>
                 </li>
+                <li>
+                    <Link to="/editar-alumno">Editar Alumno</Link>
+                </li>
             </ul>
         </nav>
     );

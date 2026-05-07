@@ -5,6 +5,7 @@ import Contacto from "./pages/Contacto";
 import Tablas from "./pages/Tablas";
 import Navbar from "./components/Navbar";
 import Usuarios from "./pages/Usuarios";
+import EditarAlumno from "./pages/EditarAlumno";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/tablas" element={<Tablas />} />
         <Route path="/usuarios" element={<Usuarios />} />
+        <Route path="editar-alumno" element={<EditarAlumno />} />
       </Routes>
     </>
   );

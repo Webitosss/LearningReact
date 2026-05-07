@@ -10,7 +10,7 @@ function Acerca() {
             <h1>Acerca</h1>
 
             <p><strong>Nombre: </strong> {alumno.nombre} </p>
-            <p><strong>Carrera: </strong> {alumno.carrea} </p>
+            <p><strong>Carrera: </strong> {alumno.carrera} </p>
             <p><strong>Grupo: </strong> {alumno.grupo} </p>
             <p><strong>Semestre: </strong> {alumno.semestre} </p>
 
